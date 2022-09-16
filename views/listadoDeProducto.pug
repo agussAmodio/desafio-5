@@ -1,0 +1,12 @@
+html 
+    head 
+    body 
+        each producto in productos 
+                        tr
+                            td #{producto.tittle}
+                            br 
+                            td #{producto.price}
+                            br
+                            td #{producto.thumbnail}
+                            hr
+        <a href="http://localhost:8080/registro">Agregar producto</a>                              

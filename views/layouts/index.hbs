@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Productos</title>
+</head>
+<body>
+    {{#if listExists}}
+
+<ul>
+    {{#each productos}}
+        <li>tittle: {{this.tittle}} <br>price: {{this.price}} <br>thumbnail: {{this.thumbnail}} <br></li>
+        <hr>
+    {{/each}}
+</ul>
+
+{{/if}}
+</body>
+</html>
